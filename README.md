@@ -1,5 +1,4 @@
-# systemFootball
-Автоматична система управління футбольними турнірами
+# Автоматична система управління футбольними турнірами
 
 Frontend  -  http://ffobuhov.hol.es/ <br>
 Backend  -  http://backend.ffobuhov.hol.es/<br><br>
