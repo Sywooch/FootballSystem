@@ -1,0 +1,886 @@
+@import url(reset.css);
+
+#wrapper
+{
+    width: 1024px;
+    min-width: 1024px;
+    margin: 0 auto;
+    border: solid darkgrey 1px;
+}
+#header
+{
+    width: 100%;
+    height: 483px;
+    background-image: url("../images/header.jpg");
+}
+
+/*начало меню сайта*/
+#menu ul
+{
+    list-style: none;
+    height: 49px;
+    width: 100%;
+    background-image: url("../images/fon_menu.jpg");
+}
+#menu ul li a
+ {
+
+    float: left;
+    padding: 16px 42px;
+    width: 120px;
+    font: bold 14px Verdana;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+
+ }
+#menu ul #last_item a
+{
+   padding-right: 46px;
+}
+#menu ul li a:hover
+{
+    background-color: #33824f;
+}
+/*конец меню сайта*/
+
+/*начало главной части сайта(фон)*/
+#main
+{
+    background-image: url("../images/bb.jpg");
+    /*background-color: mintcream;*/
+    padding-bottom: 100px;
+}
+#head_colum
+{
+    font: italic bold 15px Verdana;
+    position: relative;
+    top: 30px;
+    border-bottom: solid black 2px;
+}
+#head1
+{
+    font: italic bold 15px Verdana;
+    margin: 0 270px 0 50px;
+}
+#head2
+{
+    font: italic bold 15px Verdana;
+    margin-right: 260px;
+}
+#head3
+{
+    font: italic bold 15px Verdana;
+    margin-left: 320px;
+}
+/*конец главной части сайта(фон)*/
+
+/*начало таблица*/
+#table_space
+{
+    width: 250px;
+    position: relative;
+    float: left;
+    top: 50px;
+    left: 20px;
+}
+
+#table
+{
+    border: solid grey 1px;
+    width: 250px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    font: 14px Verdana;
+    background: url("../images/table_head.jpg") repeat-x;
+}
+#tr_1
+{
+    background: url("../images/gold_line.jpg") repeat-x;
+}
+#tr_2
+{
+    background: url("../images/serebro_line.jpg") repeat-x;
+}
+#tr_3
+{
+    background: url("../images/bronza_line.jpg") repeat-x;
+}
+#table td
+{
+    border: solid grey 1px;
+    border-right: none;
+    border-left: none;
+    padding: 3px;
+}
+#table th
+{
+    padding: 3px;
+}
+/*конец таблица*/
+
+/*начало центральной части*/
+.midp
+{
+    background-color: #fafafa;
+}
+.mid
+{
+    width: 480px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    float: left;
+    font: 14px Verdana;
+}
+
+.mid strong
+{
+    font-weight: bold;
+}
+.mid em
+{
+    font-style: italic;
+}
+.mid .headTour
+{
+    font: bold 16px Verdana;
+
+}
+.mid .dateTour
+{
+    font: bold 12px Verdana;
+    margin: 15px 0 5px 0;
+}
+.mid .cardLable
+{
+    font: bold 12px Verdana;
+    margin-top: 20px;
+}
+#yellow_card
+{
+    list-style: url("../images/yellow_card.jpg");
+    font: 12px Verdana;
+}
+#red_card
+{
+    list-style: url("../images/red_card.jpg");
+    font: 12px Verdana;
+}
+.mid ul
+{
+    margin-left: 25px;
+}
+.mid .moreInfo
+{
+    margin-top: 10px;
+    font: 10px Verdana;
+}
+.mid hr
+{
+    margin-bottom: 40px;
+}
+.mid .match
+{
+    font: bold 14px Verdana;
+}
+.mid .match span
+{
+    font: italic 12px Verdana;
+
+}
+.mid #m_time
+{
+    font: italic 12px Verdana;
+    margin-top: 20px;
+    text-align: right;
+}
+/*конец центральной части*/
+
+/*start right_bar(All team)*/
+#team
+{
+    width: 210px;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    float: left;
+
+}
+#table_team
+{
+    border: solid mintcream 1px;
+    width: 210px;
+    font: 14px Verdana;
+}
+#table_team td
+{
+    border: solid mintcream 3px;
+    border-right: none;
+    border-left: none;
+    background-image: url("../images/table_team.jpg");
+    vertical-align: middle;
+}
+#table_team td:hover
+ {
+    font: bold 12px Verdana;
+ }
+
+#table_team td a
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 7px 0;
+}
+
+/*end right_bar(All team)*/
+.clear
+{
+    clear: both;
+}
+
+/*начало подвал сайта*/
+
+#footer
+{
+    border-top: solid 1px black;
+    width: 100%;
+    height: 100px;
+    color: #000;
+    background-image: url("../images/footer.jpg");
+
+}
+#footer ul #headF
+{
+    font: bold 14px Verdana;
+}
+#footer .foot1
+{
+  width: 45%;
+  float: left;
+}
+#footer .foot2
+{
+    margin-left: 100px;
+    width: 45%;
+    float: left;
+}
+
+#footer ul
+{
+    padding: 10px 50px 10px 70px;
+    font: 12px Verdana;
+}
+#footer ul li
+{
+    padding-top: 5px;
+    font: 12px Verdana;
+}
+#footer ul li a
+{
+    font: 12px Verdana;
+    color: #000000;
+}
+#footer p
+{
+    font: bold 14px Verdana;
+    text-align: center;
+}
+
+/*конец подвал сайта*/
+
+/*начало ошибки*/
+.error
+{
+    height: 100%;
+    background-color: mintcream;
+    font: 16px Verdana;
+    padding: 40px 0 0 40px;
+    color: red;
+}
+/*конец ошибки*/
+
+/*старт Результат*/
+.score
+{
+    border: solid green 1px;
+    border-collapse: collapse;
+    width: 400px;
+    margin-bottom: 15px;
+
+}
+.score th
+{
+    cursor: pointer;
+    background: url("../images/table_head.jpg") repeat-x;
+    padding: 3px 0;
+    font: bold 14px Verdana;
+    text-align: center;
+    width: 50%;
+}
+.score .scoreH
+{
+    text-align: right;
+}
+.score .scoreG
+{
+    text-align: left;
+}
+
+.score td
+{
+    border: solid green 1px;
+    padding: 2px;
+    width: 200px;
+}
+#ball
+{
+    list-style: url("../images/ball.jpg");
+    font: 12px Verdana;
+}
+
+/*конец Результат*/
+
+/* старт Пейджер*/
+.pagination li
+{
+    display: inline-block;
+}
+
+.pagination a
+{
+    color: #000000;
+    padding: 3px 6px;
+    border: solid #808080 1px;
+}
+
+.pagination a:hover
+{
+    background-color: seagreen;
+}
+
+.disabled
+{
+    cursor: default;
+}
+
+.active a
+{
+    text-decoration: none;
+    cursor: default;
+    font-weight: bold;
+}
+/*конец Пейджер*/
+
+/*старт Таблица результатов*/
+.rezTable
+{
+    width: 640px;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    float: left;
+}
+.scoreTable
+{
+    table-layout: fixed;
+    border: solid green 1px;
+    border-collapse: collapse;
+    width: 640px;
+    font: 14px Verdana;
+    margin-bottom: 6px;
+}
+.scoreTable caption
+{
+    cursor: pointer;
+    padding: 5px 0;
+    font-weight: bold;
+    background: url("../images/table_head.jpg") repeat-x;
+    text-align: center;
+}
+.scoreTable td
+{
+    word-wrap: break-word;
+    border: solid green 1px;
+    padding: 2px;
+    text-align: center;
+    width: 200px;
+}
+
+.scoreTable .scoreField
+{
+    width: 50px;
+}
+/*конец Таблица результатов*/
+
+/*начало полной таблицы результатов*/
+
+.spaceFullTable
+{
+    width: 920px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+.fullTable
+{
+    border: solid green 1px;
+    border-collapse: collapse;
+    width: 920px;
+    font: 14px Verdana;
+    margin-bottom: 80px;
+    background: #f9f9f9;
+}
+
+.fullTable th
+{
+    border: solid green 1px;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+    background: url("../images/table_head.jpg") repeat-x;
+}
+
+.fullTable td
+{
+    word-wrap: break-word;
+    border: solid green 1px;
+    padding: 4px;
+    text-align: center;
+}
+
+.fullTable .teamName
+{
+    text-align: left;
+    width: 180px;
+}
+/*конец полной таблицы результатов*/
+
+/*начало таблицы голов*/
+.statimg
+{
+    position: relative;
+    left: 150px;
+    width: 260px;
+    height: 270px;
+    background: url("../images/stat.png") no-repeat;
+    float: left;
+    top: 85px;
+}
+
+
+.goalTable
+{
+    border: solid green 1px;
+    border-collapse: collapse;
+    width: 600px;
+    font: 14px Verdana;
+    margin-bottom: 20px;
+
+}
+.goalTable caption
+{
+    padding: 11px 0;
+    background: url("../images/fon_menu.jpg") repeat-x;
+    vertical-align: middle;
+    text-align: center;
+    font: bold 16px Verdana;
+}
+
+.goalTable th
+{
+    text-align: center;
+    border: solid green 1px;
+    font: bold italic 14px Verdana;
+}
+
+.goalTable .teamName
+{
+    width: 250px;
+}
+.goalTable td
+{
+    word-wrap: break-word;
+    border: solid green 1px;
+    padding: 3px;
+    text-align: center;
+}
+/*конец таблицы голов*/
+
+/*начало страницы кубка*/
+.cupNews
+{
+    position: relative;
+    width: 500px;
+    top: 50px;
+    left: 90px;
+    float: left;
+}
+.ff
+{
+    width: 400px;
+}
+.cupNews .goalTable
+{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.cupNews .goalTable td
+{
+    font: 12px Verdana;
+}
+.cupNews .goalTable th
+{
+    font: italic bold 11px Verdana;
+}
+.cupNews .goalTable caption
+{
+    font: bold 14px Verdana;
+    padding: 10px 0;
+}
+.cupNews .goalTable .teamName
+{
+    width: 200px;
+}
+.cupGrid
+{
+    background: url("../images/cup.png") no-repeat right top;
+    width: 950px;
+    min-height: 200px;
+    margin: 0 auto;
+    padding: 30px 10px;
+}
+.obuhovcup
+{
+    font: bold 14px Verdana;
+    padding-top: 30px;
+    text-align: center;
+}
+.obuhovcup1
+{
+    font: bold 14px Verdana;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.etap
+{
+    font: bold 12px Verdana;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+.step1
+{
+    width: 210px;
+    float: left;
+}
+.step2
+{
+    margin-top: 34px;
+    width: 230px;
+    float: left;
+    background: url("../images/step2.png") no-repeat;
+}
+.step2 .long1
+{
+    margin-bottom: 95px;
+    margin-left: 20px;
+}
+.step2 .longtxt
+{
+    margin-top: 8px;
+}
+.step3
+{
+    margin-top: 93px;
+    width: 230px;
+    float: left;
+    height: 500px;
+    background: url("../images/step3.png") no-repeat;
+}
+.step3 .long2
+{
+    margin-bottom: 250px;
+    margin-left: 20px;
+}
+.step3 .longtxt
+{
+    margin-top: 25px;
+}
+.step4
+{
+    margin-top: 171px;
+    width: 230px;
+    float: left;
+    height: 309px;
+    background: url("../images/step4.png") no-repeat;
+}
+.step4 .long3
+{
+    margin-left: 20px;
+}
+.step4 .longtxt
+{
+    margin-top: 94px;
+}
+.cupTable
+{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font: bold 14px Verdana;
+}
+
+.cupTable td
+{
+    background: url("../images/table_team.jpg");
+    border: solid 1px #000000;
+    padding: 5px;
+    width: 180px;
+    text-align: center;
+}
+.cupTable .tablescore
+{
+    width: 10px;
+}
+/*конец страницы кубка*/
+
+
+/*начало страницы профиля команды*/
+/*start Header*/
+.profileName
+{
+    font: bold italic 14px Verdana;
+   padding: 20px 0 10px 0;
+   text-align: center;
+}
+.teamHeader
+{
+    width: 100%;
+    height: 202px;
+    padding-bottom: 10px;
+}
+
+.profileImg
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    border: solid 1px #000000;
+    float: left;
+}
+
+.profileInfo1
+{
+    width: 350px;
+    height: 201px;
+    float: left;
+    margin-left: 15px;
+    font: 14px Verdana;
+    letter-spacing: 1px;
+
+}
+
+.profileInfo1 p
+{
+    padding-bottom: 18px;
+}
+
+.profileInfo1 .Under
+{
+    text-decoration: underline;
+}
+
+.profileInfo1 .profileContactTag
+{
+    font: bold 12px Verdana;
+}
+
+.profileInfo2
+{
+    width: 420px;
+    height: 201px;
+    float: left;
+    margin-left: 10px;
+    font: 14px Verdana;
+    letter-spacing: 1px;
+}
+
+.profileInfo2 p
+{
+    padding-bottom: 10px;
+}
+
+.profileInfo2 .Under
+{
+    text-decoration: underline;
+}
+
+.profileInfo2 .profileContactTag
+{
+    font: bold 12px Verdana;
+}
+
+.middleLine
+{
+    opacity: 0.5;
+    margin: 20px 0;
+}
+/*end Header*/
+
+/*start middle(players)*/
+.teamPlayers
+{
+    width: 100%;
+}
+.players
+{
+    width: 100%;
+    margin-left: 15px;
+}
+.tagPlayers
+{
+    font: bold 18px Verdana;
+    margin: 10px 0 10px 15px;
+    text-decoration: underline;
+}
+.players .playersTable
+{
+    border: solid green 1px;
+    border-collapse: collapse;
+    width: 97%;
+    font: 14px Verdana;
+    margin-bottom: 20px;
+}
+.playersTable th
+{
+    text-align: center;
+    border: solid green 1px;
+    font: bold italic 12px Verdana;
+}
+.playersTable td
+{
+    word-wrap: break-word;
+    border: solid green 1px;
+    padding: 3px;
+    text-align: center;
+}
+/*end middle(players)*/
+
+/*start middle(playersStat)*/
+
+.teamStat
+{
+    width: 100%;
+}
+.statPlayersGoal
+{
+    margin-left: 15px;
+    width: 320px;
+    float: left;
+}
+.statPlayersY
+{
+    margin-left: 15px;
+    width: 320px;
+    float: left;
+}
+.statPlayersR
+{
+    margin-left: 15px;
+    width: 320px;
+    float: left;
+}
+.statPlayersGoal .goalTable
+{
+    width: 320px;
+}
+.statPlayersGoal .goalTable caption
+{
+    font: bold 14px Verdana;
+}
+.statPlayersGoal .goalTable th
+{
+    font: bold italic 12px Verdana;
+}
+
+.statPlayersY .goalTable
+{
+    width: 320px;
+}
+.statPlayersY .goalTable caption
+{
+    font: bold 14px Verdana;
+}
+.statPlayersY .goalTable th
+{
+    font: bold italic 12px Verdana;
+}
+
+.statPlayersR .goalTable
+{
+    width: 320px;
+}
+.statPlayersR .goalTable caption
+{
+    font: bold 14px Verdana;
+}
+.statPlayersR .goalTable th
+{
+    font: bold italic 12px Verdana;
+}
+/*end middle(playersStat)*/
+
+/*start middle(teamGame)*/
+.teamGameSpace
+{
+    width: 100%;
+}
+.teamGame
+{
+    width: 100%;
+    margin-left: 15px;
+}
+
+.scoreTable .teamGameDate
+{
+    border-right: none;
+    font: bold 10px Verdana;
+}
+.teamGame .scoreTable caption
+{
+    border-right: none;
+    font: bold 10px Verdana;
+    background-image: none;
+}
+
+/*end middle(teamGame)*/
+.noscore
+{
+    width: 400px;
+    background: url("../images/table_head.jpg") repeat-x;
+    padding: 3px 0;
+    font: bold 14px Verdana;
+    text-align: center;
+}
+.noscore span
+{
+    font: bold 12px Verdana;
+    color: #cb0000;
+}
+.emptyscore
+{
+    width: 400px;
+    border: solid 1px #000000;
+    margin-top: 20px;
+}
+/*конец страницы профиля команды*/
+
+
+
+
+
+
+

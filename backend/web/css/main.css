@@ -1,0 +1,1432 @@
+@import url(reset.css);
+
+
+/*старт Результат*/
+.score
+{
+    border: solid green 1px;
+    border-collapse: collapse;
+    max-width: 1000px;
+    margin-bottom: 5px;
+
+}
+.score th
+{
+    cursor: pointer;
+    background: url("../images/table_head.jpg") repeat-x;
+    padding: 3px 0;
+    font: bold 14px Verdana;
+    text-align: center;
+    width: 50%;
+}
+.score .scoreH
+{
+   text-align: right;
+}
+.score .scoreG
+{
+    text-align: left;
+}
+.score td
+{
+    border: solid green 1px;
+    padding: 2px;
+    width: 400px;
+    max-width: 500px;
+}
+#ball
+{
+    list-style: url("../images/ball.jpg");
+    font: 12px Verdana;
+}
+
+
+.noscore
+{
+    width: 400px;
+    background: url("../images/table_head.jpg") repeat-x;
+    padding: 3px 0;
+    font: bold 14px Verdana;
+    text-align: center;
+}
+.noscore span
+{
+    font: bold 12px Verdana;
+    color: #cb0000;
+}
+.emptyscore
+{
+    width: 400px;
+    border: solid 1px #000000;
+    margin-top: 20px;
+}
+.emptyscore p
+{
+    font: 12px Verdana;
+    padding: 5px;
+}
+.emptyscore button
+{
+    font: 12px Verdana;
+    padding: 5px;
+    margin-right: 50px;
+
+}
+/*конец Результат*/
+
+
+
+#main
+{
+    background-color: mintcream;
+    font: italic bold 15px Verdana;
+    padding-bottom: 100px;
+}
+.color
+{
+    background-color: #fafafa;
+}
+.clr
+{
+    background-color: #eefff8;
+}
+
+.mid
+{
+    width: 490px;
+    padding-top: 40px;
+
+}
+.mid .headTour
+{
+    font: bold 16px Verdana;
+
+}
+
+.mid .dateTour
+{
+    font: bold 12px Verdana;
+    margin: 15px 0 5px 0;
+}
+.mid .cardLable
+{
+    font: bold 12px Verdana;
+    margin-top: 20px;
+}
+#yellow_card
+{
+    list-style: url("../images/yellow_card.jpg");
+    font: 12px Verdana;
+}
+#red_card
+{
+    list-style: url("../images/red_card.jpg");
+    font: 12px Verdana;
+}
+.mid ul
+{
+    margin-left: 25px;
+}
+.mid .moreInfo
+{
+    margin-top: 10px;
+    font: 10px Verdana;
+}
+.mid hr
+{
+    margin-bottom: 40px;
+}
+.mid .match
+{
+    font: bold 14px Verdana;
+}
+.mid .match span
+{
+    font: italic 12px Verdana;
+}
+.mid #m_time
+{
+    font: italic 12px Verdana;
+    margin-top: 20px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+.wrapper
+{
+    max-width: 1920px;
+    min-width: 980px;
+    margin: 0 auto;
+    border: solid darkgrey 1px;
+}
+
+/*начало меню сайта*/
+.menus ul
+{
+    list-style: none;
+    height: 48px;
+    width: 100%;
+    background-image: url("../images/fon_menu.jpg");
+}
+.menus ul li a
+{
+
+    float: left;
+    width: 16.66%;
+    padding: 15px 0;
+    font: bold 14px Verdana;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+
+}
+.menus ul li a:hover
+{
+    background-color: #33824f;
+}
+
+@media(min-width: 1600px)
+{
+    .menus ul li a
+    {font: bold 18px Verdana;
+     padding: 12px 0;}
+}
+/*конец меню сайта*/
+
+/*начало стартовой  страницы*/
+.middle_main
+{
+    background-image: url("../images/fifa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 582px;
+}
+.welcome
+{
+    padding: 40px;
+    font:  18px Verdana;
+}
+.welcome span
+{
+    padding-left: 85%;
+}
+.welcome span button
+{
+    padding: 10px 15px;
+    font: bold 12px Verdana;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.welcome span button:hover
+{
+    background-color: #d80000;
+}
+/*конец стартовой  страницы*/
+
+/*начало страницы match*/
+.reg_matches
+{
+    background-image: url("../images/add_game.jpg");
+    background-repeat: repeat-x;
+    width: 100%;
+    min-height: 614px;
+}
+
+.add_games
+{
+    width: 30%;
+    border: solid 1px black;
+    margin: 30px 10px 30px 400px;
+    padding: 40px;
+    display: inline-block;
+}
+.add_games label
+{
+    margin: 5px auto;
+    font: bold italic 12px Verdana;
+}
+.add_games input
+{
+    font: 16px Verdana;
+    padding: 5px;
+    width: 90%;
+}
+
+.add_games select
+{
+    font: 16px Verdana;
+    padding: 5px;
+}
+
+.middle_anons
+{
+    background-color: #eefff8;
+    width: 100%;
+    min-height: 582px;
+}
+/*конец страницы match*/
+/*начало страницы team*/
+.middle_team
+{
+    background-color: mintcream;
+    width: 100%;
+    min-height: 582px;
+    padding-bottom: 60px;
+}
+.top_menu
+{
+    margin-left: 70px;
+    padding: 10px;
+}
+
+.top_menu ul
+{
+    list-style: none;
+    width: 100%;
+
+}
+.top_menu ul li
+{
+    float: left;
+    padding: 4px 0;
+    font: bold 14px Verdana;
+    text-align: center;
+    text-decoration: none;
+}
+
+.top_menu button
+{
+    padding: 14px 40px;
+    font: bold 12px Verdana;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.top_menu button:hover
+{
+    background-color: rgba(57, 128, 61, 0.62);
+}
+
+.top button
+{
+    padding: 14px 40px;
+    font: bold 12px Verdana;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.top_line
+{
+    border-top: solid 2px black;
+    padding: 20px 0 0 0;
+    font: italic 16px Verdana;
+    text-align: center;
+}
+.bot_line
+{
+    border-bottom: solid 2px black;
+    padding: 20px 0 10px 0;
+    font: italic 16px Verdana;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.allTeamTable
+{
+    border: solid green 1px;
+    border-collapse: collapse;
+    width: 90%;
+    font: 14px Verdana;
+    margin: 0 auto;
+
+
+}
+
+.allTeamTable th
+{
+    background: url("../images/table_head.jpg") repeat-x;
+    text-align: center;
+    border: solid green 1px;
+    font: bold italic 12px Verdana;
+    padding: 2px;
+}
+
+.allTeamTable td
+{
+    word-wrap: break-word;
+    border: solid green 1px;
+    padding: 5px;
+    text-align: center;
+}
+/* начало регистрация новой команды*/
+.add_team1
+{
+    width: 40%;
+    padding: 20px;
+    float: left;
+    border: solid 1px #e2e2e2;
+    margin: 20px 20px 20px 50px;
+    background-color: rgb(250, 250, 250);
+}
+
+.add_team1 label
+{
+    margin-bottom: 10px;
+    font: bold italic 12px Verdana;
+}
+.add_team1 input
+{
+    font: 16px Verdana;
+}
+.add_field_contact
+{
+    width: 330px;
+    padding: 10px;
+    font: 12px Verdana;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.add_field_contact:hover
+{
+    background-color: rgba(244, 244, 244, 0.93);
+    cursor: pointer;
+}
+
+.delete_field_contact a
+{
+    width: 40%;
+    padding: 10px;
+    font: 12px Verdana;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: red;
+    text-decoration: none;
+}
+
+.delete_field_contact a:hover
+{
+    background-color: rgba(244, 244, 244, 0.93);
+    cursor: pointer;
+}
+
+.cancel_field
+{
+
+    padding: 12px 20px;
+    font: bold 12px Verdana;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 10px 20px 40%;
+    float: left;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.cancel_field:hover
+{
+    background-color: rgba(220, 220, 220, 0.93);
+    cursor: pointer;
+}
+
+.reg_end_button
+{
+    width: 150px;
+    height: 40px;
+    margin: 20px 0 30px 600px;
+    display: inline-block;
+}
+.reg_end_button button
+{
+    width: 150px;
+    height: 40px;
+    font: bold 12px Verdana;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    border-radius: 5px;
+}
+.reg_end_button button:hover
+{
+    background-color: rgba(220, 220, 220, 0.93);
+}
+
+.add_button
+{
+    margin-right: 80px;
+}
+
+.reg_ok_button
+{
+    width: 150px;
+    height: 40px;
+    margin: 20px auto;
+}
+.reg_ok_button button
+{
+    width: 150px;
+    height: 40px;
+    font: bold 12px Verdana;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    border-radius: 5px;
+}
+.reg_ok_button button:hover
+{
+    background-color: rgba(220, 220, 220, 0.93);
+}
+
+.regHeadTeam
+{
+    font: bold 16px Verdana;
+    padding: 10px 0 20px 0;
+    text-align: center;
+}
+
+.border_add_team
+{
+    border: solid 1px #e2e2e2;
+    padding: 25px;
+    background-color: rgb(250, 250, 250);
+}
+
+.add_team
+{
+    width: 330px;
+    padding: 10px;
+    font: 12px Verdana;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.add_team:hover
+{
+    background-color: rgba(244, 244, 244, 0.93);
+    cursor: pointer;
+}
+
+.add_team2
+{
+    float: left;
+    width: 40%;
+    padding: 40px;
+    border: solid 1px #e2e2e2;
+    margin: 20px 20px 20px 120px;
+    background-color: rgb(250, 250, 250);
+}
+
+.add_team2 label
+{
+    margin-bottom: 10px;
+    font: bold italic 12px Verdana;
+}
+.add_team2 input
+{
+    font: 16px Verdana;
+}
+/* конец регистрация новой команды*/
+
+
+.tableView
+{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    border: solid 1px #000000;
+    background-color: #fafafa;
+}
+.tableView th
+{
+    background: url("../images/table_head.jpg") repeat-x;
+    border: solid 1px #000000;
+    font: bold  12px Verdana;
+    padding: 4px;
+}
+
+.tableView th a
+{
+    padding: 8px;
+    color: black;
+}
+
+.tableView  td
+{
+    border: solid 1px #000000;
+    padding: 10px;
+    font: 14px Verdana;
+}
+.summary{text-shadow: #000088}
+
+.firstColumn
+{
+    width: 10px;
+    text-align: center;
+}
+.lastColumn
+{
+    width: 310px;
+}
+.lastColumns
+{
+    width: 340px;
+}
+
+.dropdownlist
+{
+    padding: 4px;
+    font: 14px Verdana;
+}
+
+.grid-action
+{
+    text-decoration: none;
+    font: 14px Verdana;
+}
+
+.viewButton
+{
+    border: solid 1px #000000;
+    color: #000000;
+    padding: 4px;
+}
+.viewButton:hover
+{
+    background-color: #f6f6f6;
+}
+
+.editButton
+{
+    border: solid 1px #000000;
+    color: green;
+    padding: 4px;
+}
+.editButton:hover
+{
+    background-color: #f6f6f6;
+}
+
+.deleteButton
+{
+    border: solid 1px #000000;
+    color: red;
+    padding: 4px;
+}
+.deleteButton:hover
+{
+    background-color: #f6f6f6;
+}
+
+.pagination {
+    display: inline-block;
+    margin: 0 0 20px 5%;
+    font: 14px Verdana;
+
+
+}
+
+.pagination > li {
+    display: inline;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    color: #000000;
+}
+
+
+.pagination > li > a:hover
+{
+    background-color: #eeeeee;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:hover
+ {
+    color: #ffffff;
+    cursor: default;
+    background-color: #39803d;
+    border-color: #428bca;
+}
+
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover
+{
+    color: #999999;
+    cursor: not-allowed;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+/*конец страницы team*/
+
+/*начало страницы view*/
+.mainInfo
+{
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+    font: 14px Verdana;
+    letter-spacing: 1px;
+    border: solid 1px #000000;
+    padding: 20px;
+    background-color: rgb(250, 250, 250);
+    margin-bottom: 30px;
+
+
+}
+.profileContactTag
+{
+    font: bold 12px Verdana;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.mainInfo span
+{
+    font: bold 14px Verdana;
+}
+
+.endButton
+{
+    padding: 14px;
+    font: bold 12px Verdana;
+    background-color: mintcream;
+    border: solid 1px #808080;
+    margin: 0 0 30px 30%;
+}
+.endButton:hover
+{
+    background-color: #ffffff;
+}
+
+.editInfoButton
+{
+    font-weight: bold;
+    width: 10%;
+    border: solid 1px #000000;
+    color: green;
+    padding: 14px;
+    background-color: mintcream;
+    letter-spacing: 1px;
+}
+.editInfoButton:hover
+{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.summary
+{
+    opacity: 0;
+}
+.deleteInfoButton
+{
+    border: solid 1px #000000;
+    color: red;
+    padding: 14px;
+    background-color: mintcream;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.deleteInfoButton:hover
+{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.contact
+{
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+    font: 14px Verdana;
+    letter-spacing: 1px;
+    border: solid 1px #000000;
+    padding: 20px;
+    background-color: rgb(250, 250, 250);
+}
+.contact span
+{
+    font: bold 14px Verdana;
+}
+/*конец страницы view*/
+
+/*начало страницы edit*/
+
+#w0
+{
+    margin-left: 20px;
+}
+.control-label
+{
+    display: block;
+    font: 14px Verdana;
+    padding-bottom: 10px;
+}
+
+.form-control
+{
+    display: block;
+    font: 14px Verdana;
+    padding: 3px;
+}
+
+.edit_team1 input
+{
+    /**/
+}
+
+/*конец страницы edit*/
+/*конец страницы team*/
+
+/*начало страницы player*/
+.middle_anonsing
+{
+    width: 100%;
+    min-height: 582px;
+    background-color: mintcream;
+    padding-bottom: 60px;
+}
+
+
+.playersTeam
+{
+    border: solid 1px #000000;
+    width: 20%;
+    font: 16px Verdana;
+    padding: 4px;
+    margin: 2%;
+    text-align: center;
+    float: left;
+    background: url("../images/fon_menu.jpg");
+}
+.playersTeam a
+{
+    text-decoration: none;
+    color: #000000;
+    font: bold 16px Verdana;
+    text-align: center;
+
+}
+.playersTeam:hover
+{
+    background-color: #ffffff;
+}
+.playersTeam .count
+{
+    font: bold 14px Verdana;
+    padding: 2px;
+    text-align: right;
+}
+.playersTeam .count span
+{
+    font: 12px Verdana;
+}
+
+
+
+
+.tableViewPlayer
+{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    border: solid 1px #000000;
+    background-color: #fafafa;
+}
+.tableViewPlayer th
+{
+    background: url("../images/table_head.jpg") repeat-x;
+    border: solid 1px #000000;
+    font: bold  12px Verdana;
+    padding: 4px;
+}
+
+.tableViewPlayer th a
+{
+    padding: 8px;
+    color: black;
+}
+
+.tableViewPlayer  td
+{
+    border: solid 1px #000000;
+    padding: 10px;
+    font: 14px Verdana;
+}
+.summary{text-shadow: #000088}
+
+.firstColumnPlayer
+{
+    width: 10px;
+    text-align: center;
+}
+.lastColumnPlayer
+{
+    width: 200px;
+}
+/*начало страницы player/add*/
+
+.middle_anonses
+{
+    background-image: url("../images/player.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 582px;
+}
+.add_player
+{
+    width: 30%;
+    padding: 30px;
+    margin: 30px 30px 30px 750px;
+    display: inline-block;
+}
+
+.add_player label
+{
+    margin: 5px auto;
+    font: bold italic 12px Verdana;
+}
+.add_player input
+{
+    font: 16px Verdana;
+    padding: 5px;
+    width: 90%;
+}
+
+.add_player select
+{
+    font: 16px Verdana;
+    padding: 5px;
+}
+
+.short_field input
+{
+    width: 35%;
+}
+.short_fieldd input
+{
+    width: 35%;
+}
+/*конец страницы player/add*/
+
+/*начало страницы message*/
+.middle_news
+{
+    width: 100%;
+    min-height: 582px;
+    background: url("../images/news.jpg") no-repeat right;
+}
+.middle_news .add_news
+{
+    border: solid 1px #000000;
+    padding: 20px;
+    display: inline-block;
+    margin: 50px;
+    background-color: rgb(248, 248, 248);
+}
+.add_news button
+{
+    padding: 5px;
+}
+.field-message-text
+{
+    width: 500px;
+    margin: 0 auto;
+}
+.add_news .control-label
+{
+    font: italic bold 12px Verdana;
+    text-align: center;
+}
+.field-message-title textarea
+{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.viewLabel
+{
+    font: italic bold 12px Verdana;
+}
+.viewContent
+{
+    color: #000000;
+    border: solid 1px #dcdcdc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+.middle_news .news_view
+{
+    border: solid 1px #000000;
+    padding: 20px;
+    width: 600px;
+    margin: 10px 0 30px 50px;
+    display: inline-block;
+
+}
+.viewsButton
+{
+    margin-left: 50px;
+}
+
+/*конец страницы message*/
+
+
+/*начало страницы addscore*/
+
+.rezulInfo
+{
+    border: solid 1px black;
+    width: 96%;
+    background-color: #fafafa;
+    margin: 0 auto;
+}
+.scoreTeamName
+{
+    font: bold 16px Verdana;
+    text-align: center;
+}
+.goals
+{
+    width: 100%;
+    border-bottom: solid 2px #000000;
+}
+.hgoals
+{
+    width: 40%;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 2%;
+}
+.scores
+{
+    margin: 0 auto;
+    width: 40px;
+}
+.hgoals input
+{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    font: 20px Verdana;
+    text-align: center;
+}
+.hgoals .goalsAuthor input
+{
+    width: 80%;
+    height: 15px;
+    font: 14px Verdana;
+    text-align: left;
+    margin-bottom: 5px;
+
+}
+.writeScore
+{
+    font: bold 12px Verdana;
+    margin-bottom: 30px;
+}
+.midFunc
+{
+    width: 10%;
+    float: left;
+}
+.midFuncBtnGoal
+{
+    border: solid 1px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+.midFuncBtnGoal:hover
+{
+    background-color: #fdfdfd;
+    cursor: pointer;
+}
+.midFuncBtnGoalRemove
+{
+    border: solid 1px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    text-align: center;
+}
+
+.midFuncBtnGoalRemove:hover
+{
+    background-color: #fdfdfd;
+    cursor: pointer;
+}
+
+.ggoals
+{
+    width: 40%;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 2%;
+}
+.ggoals input
+{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    font: 20px Verdana;
+    text-align: center;
+}
+
+.ggoals .goalsAuthor input
+{
+    width: 80%;
+    height: 15px;
+    font: 14px Verdana;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+
+.yellowCards
+{
+    width: 100%;
+    border-bottom: solid 2px #000000;
+}
+.hyellows
+{
+    width: 40%;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 2%;
+}
+.hyellows input
+{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    font: 20px Verdana;
+    text-align: center;
+    margin-top: 10px;
+}
+.hyellows .goalsAuthor input
+{
+    width: 80%;
+    height: 15px;
+    font: 14px Verdana;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.gyellows
+{
+    width: 40%;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 2%;
+}
+.gyellows input
+{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    font: 20px Verdana;
+    text-align: center;
+    margin-top: 10px;
+}
+.gyellows .goalsAuthor input
+{
+    width: 80%;
+    height: 15px;
+    font: 14px Verdana;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.midFuncBtnYellow
+{
+    border: solid 1px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+.midFuncBtnYellow:hover
+{
+    background-color: #fdfdfd;
+    cursor: pointer;
+}
+.midFuncBtnYellowRemove
+{
+    border: solid 1px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.midFuncBtnYellowRemove:hover
+{
+    background-color: #fdfdfd;
+    cursor: pointer;
+}
+
+
+
+
+.redCards
+{
+    width: 100%;
+    border-bottom: solid 2px #000000;
+}
+.hreds
+{
+    width: 40%;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 2%;
+}
+.hreds input
+{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    font: 20px Verdana;
+    text-align: center;
+    margin-top: 10px;
+}
+.hreds .goalsAuthor input
+{
+    width: 80%;
+    height: 15px;
+    font: 14px Verdana;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.greds
+{
+    width: 40%;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 2%;
+}
+.greds input
+{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    font: 20px Verdana;
+    text-align: center;
+    margin-top: 10px;
+}
+.greds .goalsAuthor input
+{
+    width: 80%;
+    height: 15px;
+    font: 14px Verdana;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.midFuncBtnRed
+{
+    border: solid 1px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+.midFuncBtnRed:hover
+{
+    background-color: #fdfdfd;
+    cursor: pointer;
+}
+.midFuncBtnRedRemove
+{
+    border: solid 1px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.midFuncBtnRedRemove:hover
+{
+    background-color: #fdfdfd;
+    cursor: pointer;
+}
+
+/*конец страницы addscore*/
+
+/*конец страницы anons*/
+.anonsed
+{
+    padding: 30px;
+    width: 40%;
+    margin: 30px 30px 30px 400px;
+    font: 16px Verdana;
+    border: solid 1px #000000;
+    display: inline-block;
+    background-color: #fafafa;
+}
+.anonsedPlayer
+{
+    width: 30%;
+    border: solid 1px black;
+    margin: 30px 10px 30px 600px;
+    padding: 40px;
+    background-color: #fafafa;
+    font: 16px Verdana;
+    display: inline-block;
+}
+.anonsedPlayer label
+{
+    margin: 5px auto;
+    font: bold italic 12px Verdana;
+}
+.anonsedPlayer input
+{
+    font: 16px Verdana;
+    padding: 5px;
+    width: 90%;
+}
+
+.anonsedPlayer .short input
+{
+    width: 30%;
+    text-align: center;
+}
+
+.anonsedPlayer select
+{
+    font: 16px Verdana;
+    padding: 5px;
+}
+
+#al
+{
+    padding: 5px;
+    font: 16px Verdana;
+}
+
+#publicanons, #publicA, #publicR
+{
+    padding: 5px;
+    font: 16px Verdana;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    cursor: pointer;
+}
+#publicanons:hover, #publicA:hover, #publicR:hover
+{
+    background-color: rgba(57, 128, 61, 0.62);
+}
+/*конец страницы anons*/
+
+/*начало страницы rezult*/
+
+.crez
+{
+    font: bold 10px Verdana;
+    background-color: #ffffff;
+    border: solid 1px #808080;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.crez a
+{
+    text-decoration: none;
+    color: red;
+}
+.crez:hover
+{
+    cursor: pointer;
+}
+.rezultField1
+{
+    width: 490px;
+    margin-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    float: left;
+}
+
+.rezultField1 ul
+{
+    margin-left: 25px;
+}
+
+.rezultField2
+{
+    width: 490px;
+    padding-top: 20px;
+    margin-left: 15%;
+    float: left;
+}
+
+.rezultField2 ul
+{
+    margin-left: 25px;
+}
+
+
+.loadAnons
+{
+    width: 490px;
+    margin-left: 5%;
+    float: left;
+    border-left: solid 1px #000000;
+}
+.toure
+{
+    font: bold 16px Verdana;
+
+}
+
+
+/*конец страницы rezult*/
+
+
+
+
+
+.clear
+{
+    clear: both;
+}
+footer
+{
+    font: 14px Verdana;
+    background-color: #000000;
+    color: snow;
+    text-align: center;
+}
